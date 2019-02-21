@@ -1,7 +1,7 @@
 
 # ecr-auth-refresh
 
-Allow Kubernetes outside of AWS to call a private ECR registry and periodically refresh ECR credentials before standard 12 hour timeout.
+Allow Kubernetes pull images from private ECR registry and periodically refresh ECR credentials before standard 12 hour timeout.
 
 ## How it works
 
