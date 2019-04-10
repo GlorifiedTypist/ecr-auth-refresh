@@ -51,5 +51,3 @@ spec:
               secretKeyRef:
                 name: ecr-auth-refresh-credentials
                 key: ACCOUNT_ID
-      imagePullSecrets:
-        - name: ecr-credentials-bootstrap
